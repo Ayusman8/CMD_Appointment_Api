@@ -37,7 +37,8 @@ public class AppointmentServiceImplTest {
     @Mock
     private IPatientService patientService;
     
-    @BeforeEach
+    @SuppressWarnings("deprecation")
+	@BeforeEach
     public void setup() {
         MockitoAnnotations.initMocks(this);
     }
